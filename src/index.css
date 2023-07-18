@@ -30,7 +30,7 @@ code {
 h1 {
   position: absolute;
   left: 45vw;
-  font-size: larger;
+  font-size: 4rem;
 }
 
 .buttons {
@@ -63,6 +63,7 @@ h1 {
   width: 100%;
   margin-bottom: 5px;
   color: black;
+  height: 50px;
 }
 
 
@@ -77,24 +78,34 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 27px;
+}
+
+.qr img {
+  height: 158px;
+  width: 180px;
 }
 
 .outPut button.notCopied {
   margin-top: 10px;
   background-color: chocolate;
   color: white;
-  font-size: 0.7rem;
+  height: 30px;
 }
 
 .outPut button.copied {
   margin-top: 10px;
   background-color: white;
   color: black;
-  font-size: 0.7rem;
+  height: 30px;
 }
 
 .shortUrl {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.shortUrl span {
+  font-size: 30px;
 }

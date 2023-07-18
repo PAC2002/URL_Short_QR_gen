@@ -11,3 +11,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Body {
+  height: 60vh;
+  width: 50vw;
+}
+
+h1 {
+  position: absolute;
+  left: 45vw;
+  font-size: larger;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Butn {
+  color: rgb(252, 252, 252);
+  background-color: #0181E9;
+  border: 2px solid #0a5694;
+  border-radius: 2px;
+  margin: 4px;
+}
+
+.Form {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#inputs {
+  width: 34vw;
+}
+
+#forminput {
+  width: 100%;
+  margin-bottom: 5px;
+  color: black;
+}
+
+
+.outPut {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.qr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.outPut button.notCopied {
+  margin-top: 10px;
+  background-color: chocolate;
+  color: white;
+  font-size: 0.7rem;
+}
+
+.outPut button.copied {
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+  font-size: 0.7rem;
+}
+
+.shortUrl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
